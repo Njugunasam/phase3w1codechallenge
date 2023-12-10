@@ -10,5 +10,5 @@ def convert_12hrs_to_24hrs(hour, minute, period):
     return f"{hour:02d}{minute:02d}"
 
 
-result = convert_12hrs_to_24hrs(12, 30, "am")
+result = convert_12hrs_to_24hrs(1, 30, "am")
 print(result)
